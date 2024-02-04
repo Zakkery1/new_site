@@ -3,6 +3,7 @@
 }
 
 #banner {
+    z-index: 1;
     background-color: black;
     width: 100%;
     top: 0;
@@ -11,6 +12,7 @@
 }
 
 #header {
+    z-index: 1;
     color: white;
     text-align: center;
     width: 500px; 
@@ -29,21 +31,23 @@
 #bannerimage {
     margin-top: 55px;
     width: 100%;
-    background-image: url(./img/lambo10.jpg);
+    background-image: url(./img/lambo10_resized.jpg);
     height: 800px;
-    /* background-color: black; */
-    background-position-x: -700px;
-    background-position-y: -1100px;
 }
 
 .banner_title_text {
+    position: absolute;
     color: white;
-    font-size: 50px;
+    text-align: center;
+    font-size: 34px;
     font-style: oblique;
     margin: 0;
-    padding-left: 10px;
+    top: 33%;
+    left: 38%;
 }
-
+#banner_title_text_fontsize{
+    font-size: 40px;
+}
 #specs {
     border: 3px solid #181a1b;
     display: flex;
@@ -88,6 +92,27 @@
 .image_set img{
     width: 958px;
     height: 450px;
+}
+
+#container {
+    height: 300px
+}
+
+.overview{
+    text-align: center;
+    color: white;
+    font-size: 34px;
+    font-style: oblique;
+    margin-top: 80px;
+}
+
+#overview_text {
+    color: grey;
+    text-align: left;
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 /* .image_set2 img {
