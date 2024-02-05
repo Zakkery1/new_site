@@ -43,6 +43,9 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 34px;
+    font-style: oblique;
+
 }
 #banner_title_text_fontsize{
     font-size: 40px;
