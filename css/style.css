@@ -29,6 +29,9 @@
 }
 
 #bannerimage {
+    position: relative;
+    color: white;
+    text-align: center;
     margin-top: 55px;
     width: 100%;
     background-image: url(./img/lambo10_resized.jpg);
@@ -37,13 +40,9 @@
 
 .banner_title_text {
     position: absolute;
-    color: white;
-    text-align: center;
-    font-size: 34px;
-    font-style: oblique;
-    margin: 0;
-    top: 33%;
-    left: 38%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 #banner_title_text_fontsize{
     font-size: 40px;
