@@ -49,7 +49,6 @@
     font-size: 40px;
 }
 #specs {
-    border: 3px solid #181a1b;
     display: flex;
 }
 
@@ -84,14 +83,13 @@
     color: grey;
     font-size: 15px;
     font-style: oblique;
-    border: 3px solid #181a1b;
     row-gap: 1;
 }
 
 .image_set img{
     background-size: cover;
-    width: 958px;
-    height: 450px;
+    /* width: 958px;
+    height: 450px; */
 }
 
 #container {
