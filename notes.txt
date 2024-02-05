@@ -1,0 +1,5 @@
+1. banner text wouldnt center correctly.  When other devices open the site
+its not centered. I used top and left % to make it center on desktop
+it doesnt translate correctly to other devices.
+
+2. image_set taking two images

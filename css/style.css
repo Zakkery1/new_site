@@ -86,10 +86,15 @@
     row-gap: 1;
 }
 
-.image_set img{
-    background-size: cover;
-    /* width: 958px;
-    height: 450px; */
+.image_row {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.image_column {
+    
+    flex: 50%;
 }
 
 #container {
