@@ -88,13 +88,6 @@
 
 .image_row {
     display: flex;
-    height: 100%;
-    width: 100%;
-}
-
-.image_column {
-    
-    flex: 50%;
 }
 
 #container {
