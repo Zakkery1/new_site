@@ -89,6 +89,7 @@
 }
 
 .image_set img{
+    background-size: cover;
     width: 958px;
     height: 450px;
 }
